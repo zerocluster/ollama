@@ -1,5 +1,4 @@
 FROM ghcr.io/zerocluster/node/app
-FROM ollama/ollama
 
 RUN \
     # install dependencies
