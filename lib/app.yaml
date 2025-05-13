@@ -5,7 +5,6 @@ services:
   rpc:
     components:
       rpc: true
-      threads: true
 
 defaultService: rpc
 

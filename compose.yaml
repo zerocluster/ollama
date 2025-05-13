@@ -1,3 +1,6 @@
+# NOTE: deploy
+# docker node update --label-add ollama-host=true `docker node inspect self --format "{{ .ID }}"`
+
 services:
   ollama:
     image: ghcr.io/zerocluster/ollama
@@ -23,9 +26,6 @@ services:
 
     build: .
 
-  # secrets:
-  #   ollama_env.yaml: { file: env.yaml }
-
   ollama-host:
     image: ollama/ollama
     # depends_on: [ollama-host]
@@ -36,6 +36,8 @@ services:
       replicas: 1
       placement:
         max_replicas_per_node: 1
+        constraints:
+          - "node.labels.ollama-host == true"
 
     networks: [network]
 
