@@ -7,14 +7,14 @@
         "zerocluster",
         "ollama"
     ],
-    "homepage": "https://zerocluster.github.io/datasets/",
+    "homepage": "https://github.com/zerocluster/ollama",
     "bugs": {
-        "url": "https://github.com/zerocluster/datasets/issues",
+        "url": "https://github.com/zerocluster/ollama/issues",
         "email": "root <root@softvisio.net>"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/zerocluster/datasets.git"
+        "url": "git+https://github.com/zerocluster/ollama.git"
     },
     "license": "Proprietary Software",
     "author": "root <root@softvisio.net>",
