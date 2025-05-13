@@ -9,6 +9,3 @@ services:
 defaultService: rpc
 
 components: ~
-
-config:
-  ollamaHost: ollama-host
