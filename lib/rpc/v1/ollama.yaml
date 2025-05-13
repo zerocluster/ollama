@@ -7,7 +7,35 @@ methods:
   pull:
     title: Pull model
     params:
-      - name: model_id
+      - name: model
         required: true
         schema:
           type: string
+      - name: options
+        schema:
+          type: object
+          properties:
+            stream: { type: boolean }
+          additionalProperties: false
+
+  chat:
+    title: Chat
+    params:
+      - name: options
+        schema:
+          type: object
+          properties:
+            model: { type: string }
+            messages:
+              type: array
+              items:
+                type: object
+                properties:
+                  role: { enum: [user, assistant] }
+                  content: { type: string }
+                additionalProperties: false
+                required: [role, content]
+              minItems: 1
+            stream: { type: boolean }
+          additionalProperties: false
+          required: [model, messages]
