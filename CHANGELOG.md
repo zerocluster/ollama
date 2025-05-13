@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.1.0 (2025-05-13)
+
+**Features:**
+
+- \[MINOR] feat: add openai api (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: refactor docker deployment (👬 zdm)
+
+- \[PATCH] chore: update readme (👬 zdm)
+
+Compare with the previous release: [`v1.0.3...v1.1.0`](https://github.com/zerocluster/ollama/compare/v1.0.3...v1.1.0)
+
 ### v1.0.3 (2025-05-13)
 
 **Fixes:**
