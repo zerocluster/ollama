@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.0.2 (2025-05-13)
+
+**Fixes:**
+
+- \[PATCH] fix: fix api delete method (👬 zdm)
+
+Compare with the previous release: [`v1.0.1...v1.0.2`](https://github.com/zerocluster/ollama/compare/v1.0.1...v1.0.2)
+
 ### v1.0.1 (2025-05-13)
 
 **Other changes:**
