@@ -1,6 +1,6 @@
 services:
   ollama:
-    image: ollama/ollama
+    image: ghcr.io/zerocluster/ollama
     # depends_on: [postgresql]
     init: true
     stop_grace_period: 5m
@@ -20,6 +20,8 @@ services:
     volumes:
       - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
       - { type: volume, source: ollama, target: /root/.ollama }
+
+    build: .
 
 # secrets:
 #   ollama_env.yaml: { file: env.yaml }
