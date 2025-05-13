@@ -1,0 +1,5 @@
+title: Ollama API
+
+methods:
+  tags:
+    title: Get local models
