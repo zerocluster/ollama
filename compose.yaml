@@ -31,7 +31,6 @@ services:
     volumes:
       - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
       - { type: volume, source: ollama, target: /var/local/package/data }
-      - { type: volume, source: ollama, target: /root/.ollama }
 
     build: .
 
