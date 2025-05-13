@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.0.1 (2025-05-13)
+
+**Other changes:**
+
+- \[PATCH] chore: refactor api (👬 zdm)
+
+Compare with the previous release: [`v1.0.0...v1.0.1`](https://github.com/zerocluster/ollama/compare/v1.0.0...v1.0.1)
+
 ### v1.0.0 (2025-05-13)
 
 **Breaking changes:**
