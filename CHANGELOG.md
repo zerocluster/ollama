@@ -1,5 +1,19 @@
 # Changelog
 
+### v1.1.1 (2025-05-13)
+
+**Fixes:**
+
+- \[PATCH] fix: fix ollama host (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: configure ollama serve (👬 zdm)
+
+- \[PATCH] chore: install ollama to the individual docker layer (👬 zdm)
+
+Compare with the previous release: [`v1.1.0...v1.1.1`](https://github.com/zerocluster/ollama/compare/v1.1.0...v1.1.1)
+
 ### v1.1.0 (2025-05-13)
 
 **Features:**
