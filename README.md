@@ -194,3 +194,39 @@ docker run \
     --name ollama \
     ollama/ollama
 ```
+
+## Open WebUI
+
+```sh
+# ollama embedded
+docker run --rm -it \
+    -p 80:8080 \
+    -v /var/local/open-webui/ollama:/root/.ollama \
+    -v /var/local/open-webui:/app/backend/data \
+    ghcr.io/open-webui/open-webui:ollama
+
+# api only
+docker run --rm -it \
+    -p 80:8080 \
+    -e OPENAI_API_KEY=1
+-e WEBUI_SECRET_KEY=1 \
+    -v /var/local/open-webui:/app/backend/data \
+    ghcr.io/open-webui/open-webui:main
+
+http://devel/
+
+curl http://devel/api/models \
+    -H "Authorization: Bearer sk-ceb5434731474ecda2df427a600011bf"
+
+curl http://devel/api/chat/completions \
+    -H "Authorization: Bearer sk-ceb5434731474ecda2df427a600011bf" \
+    -H "Content-Type: application/json" \
+    -d '{
+        "model": "qwen3:0.6b",
+        "messages": [ {
+            "role": "user",
+            "content": "когда ты получил последнее обновление?"
+        } ],
+        "temperature": 0.7
+    }'
+```
