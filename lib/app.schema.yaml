@@ -9,6 +9,6 @@
 
 - $id: config
   type: object
-  properties: false
+  properties: {}
   additionalProperties: false
   required: []
