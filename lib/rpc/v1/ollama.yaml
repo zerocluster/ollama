@@ -31,12 +31,12 @@ methods:
         required: true
         schema:
           type: string
-      - name: options
-        schema:
-          type: object
-          properties:
-            stream: { type: boolean }
-          additionalProperties: false
+      # - name: options
+      #   schema:
+      #     type: object
+      #     properties:
+      #       stream: { type: boolean }
+      #     additionalProperties: false
 
   delete:
     title: Delete a model
@@ -68,7 +68,7 @@ methods:
               minItems: 1
             tools: { type: array }
             options: { type: object }
-            stream: { type: boolean }
+            # stream: { type: boolean }
             keep_alive: { type: string, format: interval }
           additionalProperties: false
           required: [model, messages]
@@ -86,7 +86,7 @@ methods:
             images: { type: array, items: { type: string }, minItems: 1 }
             options: { type: object }
             template: { type: string }
-            stream: { type: boolean }
+            # stream: { type: boolean }
             raw: { type: boolean }
             keep_alive: { type: string, format: interval }
           additionalProperties: false
