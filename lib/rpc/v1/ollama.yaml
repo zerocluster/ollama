@@ -3,3 +3,11 @@ title: Ollama API
 methods:
   tags:
     title: Get local models
+
+  pull:
+    title: Pull model
+    params:
+      - name: model_id
+        required: true
+        schema:
+          type: string
