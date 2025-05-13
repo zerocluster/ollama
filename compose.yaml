@@ -38,6 +38,12 @@ services:
         max_replicas_per_node: 1
         constraints:
           - "node.labels.ollama-host == true"
+      # resources:
+      #   reservations:
+      #     generic_resources:
+      #       - discrete_resource_spec:
+      #           kind: NVIDIA-GPU
+      #           value: 0
 
     networks: [network]
 
