@@ -9,6 +9,7 @@
 
 - $id: config
   type: object
-  properties: {}
+  properties:
+    ollamaHost: { type: string }
   additionalProperties: false
-  required: []
+  required: [ollamaHost]

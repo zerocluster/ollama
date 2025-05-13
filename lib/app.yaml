@@ -10,4 +10,5 @@ defaultService: rpc
 
 components: ~
 
-config: ~
+config:
+  ollamaHost: ollama-host
