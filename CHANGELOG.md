@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.1.3 (2025-05-13)
+
+**Fixes:**
+
+- \[PATCH] fix: fix docker layer (👬 zdm)
+
+Compare with the previous release: [`v1.1.2...v1.1.3`](https://github.com/zerocluster/ollama/compare/v1.1.2...v1.1.3)
+
 ### v1.1.2 (2025-05-13)
 
 **Fixes:**
