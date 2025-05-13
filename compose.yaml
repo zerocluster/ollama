@@ -1,10 +1,10 @@
 # NOTE: deploy
-# docker node update --label-add ollama-host=true `docker node inspect self --format "{{ .ID }}"`
+# docker node update --label-add ollama=true `docker node inspect self --format "{{ .ID }}"`
 
 services:
   ollama:
     image: ghcr.io/zerocluster/ollama
-    depends_on: [ollama-host]
+    depends_on: []
     init: true
     stop_grace_period: 5m
 
@@ -12,6 +12,14 @@ services:
       replicas: 1
       placement:
         max_replicas_per_node: 1
+        constraints:
+          - "node.labels.ollama == true"
+      # resources:
+      #   reservations:
+      #     generic_resources:
+      #       - discrete_resource_spec:
+      #           kind: NVIDIA-GPU
+      #           value: 0
 
     command: run
 
@@ -23,40 +31,12 @@ services:
     volumes:
       - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
       - { type: volume, source: ollama, target: /var/local/package/data }
+      - { type: volume, source: ollama, target: /root/.ollama }
 
     build: .
-
-  ollama-host:
-    image: ollama/ollama
-    # depends_on: [ollama-host]
-    init: true
-    stop_grace_period: 5m
-
-    deploy:
-      replicas: 1
-      placement:
-        max_replicas_per_node: 1
-        constraints:
-          - "node.labels.ollama-host == true"
-      # resources:
-      #   reservations:
-      #     generic_resources:
-      #       - discrete_resource_spec:
-      #           kind: NVIDIA-GPU
-      #           value: 0
-
-    networks: [network]
-
-    volumes:
-      - { type: tmpfs, target: /dev/shm, tmpfs: { size: 1073741824 } }
-      - { type: volume, source: ollama-host, target: /root/.ollama }
-
-# secrets:
-#   ollama_env.yaml: { file: env.yaml }
 
 networks:
   network: ~
 
 volumes:
   ollama: ~
-  ollama-host: ~
