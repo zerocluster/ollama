@@ -1,0 +1,14 @@
+dependencies:
+  - "@softvisio/core"
+
+services:
+  rpc:
+    components:
+      rpc: true
+      threads: true
+
+defaultService: rpc
+
+components: ~
+
+config: ~

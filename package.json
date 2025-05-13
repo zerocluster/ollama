@@ -1,0 +1,33 @@
+{
+    "name": "@zerocluster/ollama",
+    "version": "0.0.0",
+    "private": true,
+    "description": "Ollama",
+    "keywords": [
+        "zerocluster",
+        "ollama"
+    ],
+    "homepage": "https://zerocluster.github.io/datasets/",
+    "bugs": {
+        "url": "https://github.com/zerocluster/datasets/issues",
+        "email": "root <root@softvisio.net>"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zerocluster/datasets.git"
+    },
+    "license": "Proprietary Software",
+    "author": "root <root@softvisio.net>",
+    "type": "module",
+    "imports": {
+        "#core/*": "@softvisio/core/*",
+        "#lib/*": "./lib/*.js",
+        "#resources/*": "./resources/*"
+    },
+    "scripts": {
+        "start": "node bin/main.js run --mode=development"
+    },
+    "dependencies": {
+        "@softvisio/core": "^7.101.7"
+    }
+}
