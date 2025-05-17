@@ -1,16 +1,16 @@
 title: Ollama API
 
 methods:
-  version:
+  get-version:
     title: Get Ollama version
 
-  tags:
+  get-models:
     title: List local models
 
-  ps:
+  get-loaded-models:
     title: List running models
 
-  show:
+  get-model-info:
     title: Show model information
     params:
       - name: model
@@ -24,7 +24,7 @@ methods:
             verbose: { type: boolean }
           additionalProperties: false
 
-  pull:
+  install-model:
     title: Pull a model
     params:
       - name: model
@@ -38,7 +38,7 @@ methods:
       #       stream: { type: boolean }
       #     additionalProperties: false
 
-  delete:
+  delete-model:
     title: Delete a model
     params:
       - name: model
@@ -46,7 +46,7 @@ methods:
         schema:
           type: string
 
-  chat:
+  get-chat-completion:
     title: Generate a chat completion
     params:
       - name: options
@@ -73,7 +73,7 @@ methods:
           additionalProperties: false
           required: [model, messages]
 
-  generate:
+  get-completion:
     title: Generate a completion
     params:
       - name: options
@@ -92,7 +92,7 @@ methods:
           additionalProperties: false
           required: [model, prompt]
 
-  embed:
+  get-embedding:
     title: Generate embeddings
     params:
       - name: options
