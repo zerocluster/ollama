@@ -1,5 +1,17 @@
 # Changelog
 
+### v2.0.0 (2025-05-17)
+
+**Migration notes:**
+
+See the list of the breaking changes below for details.
+
+**Breaking changes:**
+
+- \[MAJOR] feat!: change api methods names (👬 zdm)
+
+Compare with the previous release: [`v1.1.7...v2.0.0`](https://github.com/zerocluster/ollama/compare/v1.1.7...v2.0.0)
+
 ### v1.1.7 (2025-05-17)
 
 **Fixes:**
