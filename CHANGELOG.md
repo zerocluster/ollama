@@ -1,5 +1,13 @@
 # Changelog
 
+### v1.1.7 (2025-05-17)
+
+**Fixes:**
+
+- \[PATCH] fix: fix api timeout (👬 zdm)
+
+Compare with the previous release: [`v1.1.6...v1.1.7`](https://github.com/zerocluster/ollama/compare/v1.1.6...v1.1.7)
+
 ### v1.1.6 (2025-05-17)
 
 **Fixes:**
