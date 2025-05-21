@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.1.0 (2025-05-21)
+
+**Features:**
+
+- \[MINOR] feat: refactor api (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+Compare with the previous release: [`v4.0.0...v4.1.0`](https://github.com/zerocluster/ollama/compare/v4.0.0...v4.1.0)
+
 ### v4.0.0 (2025-05-21)
 
 **Migration notes:**
