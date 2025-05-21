@@ -7,7 +7,7 @@
         "zerocluster",
         "ollama"
     ],
-    "homepage": "https://github.com/zerocluster/ollama",
+    "homepage": "https://zerocluster.github.io/ollama/",
     "bugs": {
         "url": "https://github.com/zerocluster/ollama/issues",
         "email": "root <root@softvisio.net>"
