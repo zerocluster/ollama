@@ -4,6 +4,7 @@ dependencies:
 services:
   rpc:
     components:
+      ollama: true
       rpc: true
 
 defaultService: rpc
