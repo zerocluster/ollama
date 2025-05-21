@@ -28,7 +28,7 @@ methods:
           additionalProperties: false
 
   install-model:
-    title: Pull a model
+    title: Install a model
     params:
       - name: model
         required: true
