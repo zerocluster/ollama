@@ -53,6 +53,7 @@ methods:
     title: Generate a chat completion
     params:
       - name: options
+        required: true
         schema:
           type: object
           properties:
@@ -80,6 +81,7 @@ methods:
     title: Generate a completion
     params:
       - name: options
+        required: true
         schema:
           type: object
           properties:
@@ -99,6 +101,7 @@ methods:
     title: Generate embeddings
     params:
       - name: options
+        required: true
         schema:
           type: object
           properties:
