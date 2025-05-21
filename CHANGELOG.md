@@ -1,5 +1,13 @@
 # Changelog
 
+### v3.1.0 (2025-05-21)
+
+**Features:**
+
+- \[MINOR] feat: make app component (👬 zdm)
+
+Compare with the previous release: [`v3.0.0...v3.1.0`](https://github.com/zerocluster/ollama/compare/v3.0.0...v3.1.0)
+
 ### v3.0.0 (2025-05-21)
 
 **Migration notes:**
