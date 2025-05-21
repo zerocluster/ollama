@@ -1,5 +1,27 @@
 # Changelog
 
+### v3.0.0 (2025-05-21)
+
+**Migration notes:**
+
+See the list of the breaking changes below for details.
+
+**Breaking changes:**
+
+- \[MAJOR] feat!: initial release (👬 zdm)
+
+**Other changes:**
+
+- \[PATCH] chore: init docs (👬 zdm)
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+- \[PATCH] chore: update package metadata (👬 zdm)
+
+- \[PATCH] chore: update rpc port in docs (👬 zdm)
+
+Compare with the previous release: [`v2.0.1...v3.0.0`](https://github.com/zerocluster/ollama/compare/v2.0.1...v3.0.0)
+
 ### v2.0.1 (2025-05-17)
 
 **Other changes:**
