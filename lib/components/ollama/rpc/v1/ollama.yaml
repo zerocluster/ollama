@@ -52,41 +52,47 @@ methods:
   get-chat-completion:
     title: Generate a chat completion
     params:
-      - name: options
+      - name: model
         required: true
+        schema: { type: string }
+      - name: messages
+        required: true
+        schema:
+          type: array
+          items:
+            type: object
+            properties:
+              role: { enum: [system, user, assistant, tool] }
+              content: { type: string }
+              images: { type: array, items: { type: string }, minItems: 1 }
+              tool_calls: { type: array }
+            additionalProperties: false
+            required: [role, content]
+          minItems: 1
+      - name: options
         schema:
           type: object
           properties:
-            model: { type: string }
-            messages:
-              type: array
-              items:
-                type: object
-                properties:
-                  role: { enum: [system, user, assistant, tool] }
-                  content: { type: string }
-                  images: { type: array, items: { type: string }, minItems: 1 }
-                  tool_calls: { type: array }
-                additionalProperties: false
-                required: [role, content]
-              minItems: 1
             tools: { type: array }
             options: { type: object }
             # stream: { type: boolean }
             keep_alive: { type: string, format: interval }
           additionalProperties: false
-          required: [model, messages]
+          required: []
 
   get-completion:
     title: Generate a completion
     params:
-      - name: options
+      - name: model
         required: true
+        schema: { type: string }
+      - name: prompt
+        required: true
+        schema: { type: string }
+      - name: options
         schema:
           type: object
           properties:
-            model: { type: string }
-            prompt: { type: string }
             suffix: { type: string }
             images: { type: array, items: { type: string }, minItems: 1 }
             options: { type: object }
@@ -95,20 +101,23 @@ methods:
             raw: { type: boolean }
             keep_alive: { type: string, format: interval }
           additionalProperties: false
-          required: [model, prompt]
+          required: []
 
   get-embedding:
     title: Generate embeddings
     params:
-      - name: options
+      - name: model
         required: true
+        schema: { type: string }
+      - name: input
+        required: true
+        schema: { type: string }
+      - name: options
         schema:
           type: object
           properties:
-            model: { type: string }
-            input: { type: string }
             truncate: { type: boolean }
             keep_alive: { type: string, format: interval }
             options: { type: object }
           additionalProperties: false
-          required: [model, input]
+          required: []
