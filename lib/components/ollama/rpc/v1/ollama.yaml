@@ -49,6 +49,48 @@ methods:
         schema:
           type: string
 
+  get-embedding:
+    title: Generate embeddings
+    params:
+      - name: model
+        required: true
+        schema: { type: string }
+      - name: input
+        required: true
+        schema: { type: string }
+      - name: options
+        schema:
+          type: object
+          properties:
+            truncate: { type: boolean }
+            keep_alive: { type: string, format: interval }
+            options: { type: object }
+          additionalProperties: false
+          required: []
+
+  get-completion:
+    title: Generate a completion
+    params:
+      - name: model
+        required: true
+        schema: { type: string }
+      - name: prompt
+        required: true
+        schema: { type: string }
+      - name: options
+        schema:
+          type: object
+          properties:
+            suffix: { type: string }
+            images: { type: array, items: { type: string }, minItems: 1 }
+            options: { type: object }
+            template: { type: string }
+            # stream: { type: boolean }
+            raw: { type: boolean }
+            keep_alive: { type: string, format: interval }
+          additionalProperties: false
+          required: []
+
   get-chat-completion:
     title: Generate a chat completion
     params:
@@ -77,47 +119,5 @@ methods:
             options: { type: object }
             # stream: { type: boolean }
             keep_alive: { type: string, format: interval }
-          additionalProperties: false
-          required: []
-
-  get-completion:
-    title: Generate a completion
-    params:
-      - name: model
-        required: true
-        schema: { type: string }
-      - name: prompt
-        required: true
-        schema: { type: string }
-      - name: options
-        schema:
-          type: object
-          properties:
-            suffix: { type: string }
-            images: { type: array, items: { type: string }, minItems: 1 }
-            options: { type: object }
-            template: { type: string }
-            # stream: { type: boolean }
-            raw: { type: boolean }
-            keep_alive: { type: string, format: interval }
-          additionalProperties: false
-          required: []
-
-  get-embedding:
-    title: Generate embeddings
-    params:
-      - name: model
-        required: true
-        schema: { type: string }
-      - name: input
-        required: true
-        schema: { type: string }
-      - name: options
-        schema:
-          type: object
-          properties:
-            truncate: { type: boolean }
-            keep_alive: { type: string, format: interval }
-            options: { type: object }
           additionalProperties: false
           required: []
