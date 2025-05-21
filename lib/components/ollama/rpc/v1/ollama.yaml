@@ -10,7 +10,7 @@ methods:
   get-installed-models:
     title: Get installed models
 
-  get-loaded-models:
+  get-running-models:
     title: Get running models
 
   get-model-info:
