@@ -5,13 +5,16 @@ methods:
     title: Get Ollama version
 
   get-models:
-    title: List local models
+    title: Get supported models
+
+  get-installed-models:
+    title: Get installed models
 
   get-loaded-models:
-    title: List running models
+    title: Get running models
 
   get-model-info:
-    title: Show model information
+    title: Get model information
     params:
       - name: model
         required: true
