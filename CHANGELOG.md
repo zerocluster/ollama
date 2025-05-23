@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.1.1 (2025-05-23)
+
+**Other changes:**
+
+- \[PATCH] chore: update package dependencies (👬 zdm)
+
+Compare with the previous release: [`v4.1.0...v4.1.1`](https://github.com/zerocluster/ollama/compare/v4.1.0...v4.1.1)
+
 ### v4.1.0 (2025-05-21)
 
 **Features:**
