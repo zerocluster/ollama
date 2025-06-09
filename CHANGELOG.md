@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.1.9 (2025-06-09)
+
+**Other changes:**
+
+- \[PATCH] chore: update cli config (👬 zdm)
+
+- \[PATCH] chore(deps): update package dependencies (👬 zdm)
+
+Compare with the previous release: [v4.1.8](https://github.com/zerocluster/ollama/compare/v4.1.8...v4.1.9)
+
 ### v4.1.8 (2025-06-03)
 
 **Other changes:**
