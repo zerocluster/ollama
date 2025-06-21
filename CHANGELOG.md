@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.1.14 (2025-06-21)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [53c57e7](https://github.com/zerocluster/ollama/commit/53c57e7), [a332017](https://github.com/zerocluster/ollama/commit/a332017); 👬 zdm)
+
+Compare with the previous release: [v4.1.13](https://github.com/zerocluster/ollama/compare/v4.1.13...v4.1.14)
+
 ### v4.1.13 (2025-06-17)
 
 **Other changes:**
