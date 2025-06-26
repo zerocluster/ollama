@@ -2,14 +2,17 @@ FROM ghcr.io/zerocluster/node/app
 
 RUN \
     # install ollama
-    bash <(curl -fsSL "https://ollama.com/install.sh") \
+    script=$(curl -fsSL "https://ollama.com/install.sh") \
+    && bash <(echo "$script") \
     \
     # cleanup
-    && bash <(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh") cleanup
+    && script=$(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh") \
+    && bash <(echo "$script") cleanup
 
 RUN \
     # install dependencies
     NODE_ENV=production npm install-clean \
     \
     # cleanup
-    && bash <(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh") cleanup
+    && script=$(curl -fsSL "https://raw.githubusercontent.com/softvisio/scripts/main/env-build-node.sh") \
+    && bash <(echo "$script") cleanup
