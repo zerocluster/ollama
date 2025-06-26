@@ -1,5 +1,19 @@
 # Changelog
 
+### v4.1.16 (2025-06-26)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: fix bash invocation in scripts (● [1049f4e](https://github.com/zerocluster/ollama/commit/1049f4e); 👬 zdm)
+
+- \[PATCH] refactor: fix external bash scripts invocation (● [b666534](https://github.com/zerocluster/ollama/commit/b666534); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update package dependencies (● [929a7f7](https://github.com/zerocluster/ollama/commit/929a7f7); 👬 zdm)
+
+Compare with the previous release: [v4.1.15](https://github.com/zerocluster/ollama/compare/v4.1.15...v4.1.16)
+
 ### v4.1.15 (2025-06-25)
 
 **Other changes:**
