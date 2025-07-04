@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.1.20 (2025-07-04)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [acf4083](https://github.com/zerocluster/ollama/commit/acf4083); 👬 zdm)
+
+Compare with the previous release: [v4.1.19](https://github.com/zerocluster/ollama/compare/v4.1.19...v4.1.20)
+
 ### v4.1.19 (2025-07-04)
 
 **Other changes:**
