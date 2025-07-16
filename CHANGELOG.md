@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.1.24 (2025-07-16)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [451d31b](https://github.com/zerocluster/ollama/commit/451d31b); 👬 zdm)
+
+- docs: update (● [a119772](https://github.com/zerocluster/ollama/commit/a119772); 👬 zdm)
+
+Compare with the previous release: [v4.1.23](https://github.com/zerocluster/ollama/compare/v4.1.23...v4.1.24)
+
 ### v4.1.23 (2025-07-16)
 
 **Other changes:**
