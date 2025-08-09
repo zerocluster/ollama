@@ -1,5 +1,19 @@
 # Changelog
 
+### v4.1.26 (2025-08-09)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix editorconfig (● [93c76c6](https://github.com/zerocluster/ollama/commit/93c76c6); 👬 zdm)
+
+- \[PATCH] fix: update editorconfig (● [aaf4138](https://github.com/zerocluster/ollama/commit/aaf4138); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [58186fd](https://github.com/zerocluster/ollama/commit/58186fd), [80c7642](https://github.com/zerocluster/ollama/commit/80c7642), [fed88b6](https://github.com/zerocluster/ollama/commit/fed88b6), [ad5d46a](https://github.com/zerocluster/ollama/commit/ad5d46a); 👬 zdm)
+
+Compare with the previous release: [v4.1.25](https://github.com/zerocluster/ollama/compare/v4.1.25...v4.1.26)
+
 ### v4.1.25 (2025-07-16)
 
 **Other changes:**
