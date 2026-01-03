@@ -1,5 +1,23 @@
 # Changelog
 
+### v4.2.0 (2026-01-03)
+
+**New features:**
+
+- \[MINOR] feat: add docker build secrets (● [94b167f](https://github.com/zerocluster/ollama/commit/94b167f), [5cbc654](https://github.com/zerocluster/ollama/commit/5cbc654); 👬 zdm)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remove NPM_TOKEN_GITHUB (● [90bcb08](https://github.com/zerocluster/ollama/commit/90bcb08); 👬 zdm)
+
+**Other changes:**
+
+- build: migrate to c0rejs namespace (● [fe5648c](https://github.com/zerocluster/ollama/commit/fe5648c); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [4ac1c77](https://github.com/zerocluster/ollama/commit/4ac1c77), [820a44b](https://github.com/zerocluster/ollama/commit/820a44b), [7608783](https://github.com/zerocluster/ollama/commit/7608783), [6c4c424](https://github.com/zerocluster/ollama/commit/6c4c424), [10c8db3](https://github.com/zerocluster/ollama/commit/10c8db3), [16ef98d](https://github.com/zerocluster/ollama/commit/16ef98d), [f1e8dad](https://github.com/zerocluster/ollama/commit/f1e8dad), [30f8117](https://github.com/zerocluster/ollama/commit/30f8117), [d42a60e](https://github.com/zerocluster/ollama/commit/d42a60e), [389074d](https://github.com/zerocluster/ollama/commit/389074d), [1b2fde7](https://github.com/zerocluster/ollama/commit/1b2fde7), [735c3e4](https://github.com/zerocluster/ollama/commit/735c3e4), [5602dfa](https://github.com/zerocluster/ollama/commit/5602dfa), [dff6151](https://github.com/zerocluster/ollama/commit/dff6151), [7fabe9c](https://github.com/zerocluster/ollama/commit/7fabe9c), [b28f728](https://github.com/zerocluster/ollama/commit/b28f728), [83d6172](https://github.com/zerocluster/ollama/commit/83d6172), [2893726](https://github.com/zerocluster/ollama/commit/2893726), [8fb8d01](https://github.com/zerocluster/ollama/commit/8fb8d01); 👬 zdm)
+
+Compare with the previous release: [v4.1.30](https://github.com/zerocluster/ollama/compare/v4.1.30...v4.2.0)
+
 ### v4.1.30 (2025-10-16)
 
 **Other changes:**
