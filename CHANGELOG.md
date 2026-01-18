@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.2.1 (2026-01-18)
+
+**Other changes:**
+
+- chore: remove npm @sencha:registry (● [fb5635e](https://github.com/zerocluster/ollama/commit/fb5635e); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [a3ffdb1](https://github.com/zerocluster/ollama/commit/a3ffdb1), [40d6789](https://github.com/zerocluster/ollama/commit/40d6789), [d78e936](https://github.com/zerocluster/ollama/commit/d78e936), [bae9ce5](https://github.com/zerocluster/ollama/commit/bae9ce5), [d9b7757](https://github.com/zerocluster/ollama/commit/d9b7757); 👬 zdm)
+
+Compare with the previous release: [v4.2.0](https://github.com/zerocluster/ollama/compare/v4.2.0...v4.2.1)
+
 ### v4.2.0 (2026-01-03)
 
 **New features:**
