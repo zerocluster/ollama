@@ -2,7 +2,8 @@ FROM ghcr.io/zerocluster/node/app
 
 RUN \
     # install ollama
-    script=$(curl -fsSL "https://ollama.com/install.sh") \
+    apt-get update && apt-get install -y zstd \
+    && script=$(curl -fsSL "https://ollama.com/install.sh") \
     && bash <(echo "$script") \
     \
     # cleanup
