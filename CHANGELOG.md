@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.2 (2026-01-18)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix deps (● [8703bba](https://github.com/zerocluster/ollama/commit/8703bba); 👬 zdm)
+
+Compare with the previous release: [v4.2.1](https://github.com/zerocluster/ollama/compare/v4.2.1...v4.2.2)
+
 ### v4.2.1 (2026-01-18)
 
 **Other changes:**
