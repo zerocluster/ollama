@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.2.4 (2026-01-29)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [aaffabb](https://github.com/zerocluster/ollama/commit/aaffabb); 👬 zdm)
+
+- chore(metadata): update package metadata (● [d6cc824](https://github.com/zerocluster/ollama/commit/d6cc824); 👬 zdm)
+
+Compare with the previous release: [v4.2.3](https://github.com/zerocluster/ollama/compare/v4.2.3...v4.2.4)
+
 ### v4.2.3 (2026-01-29)
 
 **Other changes:**
