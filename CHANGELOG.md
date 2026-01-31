@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.2.6 (2026-01-31)
+
+**Other changes:**
+
+- chore: rename c0rejs namespace (● [12f851b](https://github.com/zerocluster/ollama/commit/12f851b), [b6e6aac](https://github.com/zerocluster/ollama/commit/b6e6aac); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [985d6d7](https://github.com/zerocluster/ollama/commit/985d6d7); 👬 zdm)
+
+Compare with the previous release: [v4.2.5](https://github.com/zerocluster/ollama/compare/v4.2.5...v4.2.6)
+
 ### v4.2.5 (2026-01-30)
 
 **Other changes:**
