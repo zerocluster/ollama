@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.2.7 (2026-02-06)
+
+**Other changes:**
+
+- chore: remove @zdm npm registry (● [93d9975](https://github.com/zerocluster/ollama/commit/93d9975); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [581ce45](https://github.com/zerocluster/ollama/commit/581ce45), [e7e75db](https://github.com/zerocluster/ollama/commit/e7e75db), [e2e8448](https://github.com/zerocluster/ollama/commit/e2e8448), [bdfd205](https://github.com/zerocluster/ollama/commit/bdfd205), [bb2ee65](https://github.com/zerocluster/ollama/commit/bb2ee65); 👬 zdm)
+
+Compare with the previous release: [v4.2.6](https://github.com/zerocluster/ollama/compare/v4.2.6...v4.2.7)
+
 ### v4.2.6 (2026-01-31)
 
 **Other changes:**
