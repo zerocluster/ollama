@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.15 (2026-03-24)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [fad0fc4](https://github.com/zerocluster/ollama/commit/fad0fc4); 👬 zdm)
+
+Compare with the previous release: [v4.2.14](https://github.com/zerocluster/ollama/compare/v4.2.14...v4.2.15)
+
 ### v4.2.14 (2026-03-24)
 
 **Other changes:**
