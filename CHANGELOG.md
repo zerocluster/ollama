@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.20 (2026-03-29)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [d3d363d](https://github.com/zerocluster/ollama/commit/d3d363d); 👬 zdm)
+
+Compare with the previous release: [v4.2.19](https://github.com/zerocluster/ollama/compare/v4.2.19...v4.2.20)
+
 ### v4.2.19 (2026-03-29)
 
 **Other changes:**
