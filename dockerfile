@@ -5,7 +5,8 @@ RUN <<EOF
 
 # install ollama
 apt-get update
-apt-get install -y zstd
+apt-get install -y \
+    zstd
 
 script=$(curl -fsSL "https://ollama.com/install.sh")
 bash <(echo "$script")
