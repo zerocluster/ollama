@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.2.30 (2026-04-14)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update dockerfile (● [76fae5e](https://github.com/zerocluster/ollama/commit/76fae5e), [d523bf3](https://github.com/zerocluster/ollama/commit/d523bf3); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [29b21de](https://github.com/zerocluster/ollama/commit/29b21de), [c235172](https://github.com/zerocluster/ollama/commit/c235172), [d200501](https://github.com/zerocluster/ollama/commit/d200501), [387509b](https://github.com/zerocluster/ollama/commit/387509b), [b2d75ef](https://github.com/zerocluster/ollama/commit/b2d75ef), [2a0f6e2](https://github.com/zerocluster/ollama/commit/2a0f6e2); 👬 zdm)
+
+Compare with the previous release: [v4.2.29](https://github.com/zerocluster/ollama/compare/v4.2.29...v4.2.30)
+
 ### v4.2.29 (2026-04-09)
 
 **Other changes:**
