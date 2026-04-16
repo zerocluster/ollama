@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.2.31 (2026-04-16)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix dockerfile errors handler (● [3ef372b](https://github.com/zerocluster/ollama/commit/3ef372b); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [c91474f](https://github.com/zerocluster/ollama/commit/c91474f); 👬 zdm)
+
+Compare with the previous release: [v4.2.30](https://github.com/zerocluster/ollama/compare/v4.2.30...v4.2.31)
+
 ### v4.2.30 (2026-04-14)
 
 **Code refactoring:**
