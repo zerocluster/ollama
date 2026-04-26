@@ -1,5 +1,23 @@
 # Changelog
 
+### v4.2.33 (2026-04-26)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix sh error trap (● [43ab760](https://github.com/zerocluster/ollama/commit/43ab760); 👬 zdm)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update .editorconfig (● [f0ab208](https://github.com/zerocluster/ollama/commit/f0ab208); 👬 zdm)
+
+- \[PATCH] refactor: update sh error trap (● [61ef9a4](https://github.com/zerocluster/ollama/commit/61ef9a4); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [80a48dd](https://github.com/zerocluster/ollama/commit/80a48dd), [f51c34a](https://github.com/zerocluster/ollama/commit/f51c34a), [00d9c6e](https://github.com/zerocluster/ollama/commit/00d9c6e), [85c96a8](https://github.com/zerocluster/ollama/commit/85c96a8), [f51ac3c](https://github.com/zerocluster/ollama/commit/f51ac3c), [aaf7d62](https://github.com/zerocluster/ollama/commit/aaf7d62), [158f67f](https://github.com/zerocluster/ollama/commit/158f67f); 👬 zdm)
+
+Compare with the previous release: [v4.2.32...v4.2.33](https://github.com/zerocluster/ollama/compare/v4.2.32...v4.2.33)
+
 ### v4.2.32 (2026-04-20)
 
 **Other changes:**
