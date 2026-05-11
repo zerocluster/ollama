@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.2.35 (2026-05-11)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename cli.config.yaml to scli.config.yaml (● [eafa732](https://github.com/zerocluster/ollama/commit/eafa732); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [574cc2c](https://github.com/zerocluster/ollama/commit/574cc2c), [ad34072](https://github.com/zerocluster/ollama/commit/ad34072), [4287bdf](https://github.com/zerocluster/ollama/commit/4287bdf), [2e04324](https://github.com/zerocluster/ollama/commit/2e04324), [d9ae449](https://github.com/zerocluster/ollama/commit/d9ae449), [294fe48](https://github.com/zerocluster/ollama/commit/294fe48), [6d16ac2](https://github.com/zerocluster/ollama/commit/6d16ac2), [97a4228](https://github.com/zerocluster/ollama/commit/97a4228), [a0a9d17](https://github.com/zerocluster/ollama/commit/a0a9d17), [76c5631](https://github.com/zerocluster/ollama/commit/76c5631), [0af9b43](https://github.com/zerocluster/ollama/commit/0af9b43), [3846fa4](https://github.com/zerocluster/ollama/commit/3846fa4), [f45c1c3](https://github.com/zerocluster/ollama/commit/f45c1c3), [0a9ce05](https://github.com/zerocluster/ollama/commit/0a9ce05); 👬 zdm)
+
+Compare with the previous release: [v4.2.34...v4.2.35](https://github.com/zerocluster/ollama/compare/v4.2.34...v4.2.35)
+
 ### v4.2.34 (2026-04-29)
 
 **Other changes:**
