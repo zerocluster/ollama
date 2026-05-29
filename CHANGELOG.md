@@ -1,5 +1,19 @@
 # Changelog
 
+### v4.2.39 (2026-05-29)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename app service to main (● [377a2f4](https://github.com/zerocluster/ollama/commit/377a2f4); 👬 zdm)
+
+**Other changes:**
+
+- build: remove registries from .npmrc (● [5e30a27](https://github.com/zerocluster/ollama/commit/5e30a27); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [e2d608f](https://github.com/zerocluster/ollama/commit/e2d608f), [ddc806a](https://github.com/zerocluster/ollama/commit/ddc806a), [405e783](https://github.com/zerocluster/ollama/commit/405e783), [c69f0a1](https://github.com/zerocluster/ollama/commit/c69f0a1), [9d8e35d](https://github.com/zerocluster/ollama/commit/9d8e35d), [f9ed940](https://github.com/zerocluster/ollama/commit/f9ed940); 👬 zdm)
+
+Compare with the previous release: [v4.2.38...v4.2.39](https://github.com/zerocluster/ollama/compare/v4.2.38...v4.2.39)
+
 ### v4.2.38 (2026-05-19)
 
 **Other changes:**
