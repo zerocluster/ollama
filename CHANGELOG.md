@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.40 (2026-06-19)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [1bc91de](https://github.com/zerocluster/ollama/commit/1bc91de), [ee48c6f](https://github.com/zerocluster/ollama/commit/ee48c6f), [f9421fa](https://github.com/zerocluster/ollama/commit/f9421fa), [ea38a59](https://github.com/zerocluster/ollama/commit/ea38a59), [04a505d](https://github.com/zerocluster/ollama/commit/04a505d), [fd5f746](https://github.com/zerocluster/ollama/commit/fd5f746), [37e466f](https://github.com/zerocluster/ollama/commit/37e466f), [7df664d](https://github.com/zerocluster/ollama/commit/7df664d), [c6e48ab](https://github.com/zerocluster/ollama/commit/c6e48ab), [ae2cbbc](https://github.com/zerocluster/ollama/commit/ae2cbbc), [1a14b90](https://github.com/zerocluster/ollama/commit/1a14b90), [60a7d84](https://github.com/zerocluster/ollama/commit/60a7d84), [e395cc8](https://github.com/zerocluster/ollama/commit/e395cc8), [44a8045](https://github.com/zerocluster/ollama/commit/44a8045), [c193732](https://github.com/zerocluster/ollama/commit/c193732), [720b8de](https://github.com/zerocluster/ollama/commit/720b8de), [983412b](https://github.com/zerocluster/ollama/commit/983412b), [7a5dc5a](https://github.com/zerocluster/ollama/commit/7a5dc5a); 👬 zdm)
+
+Compare with the previous release: [v4.2.39...v4.2.40](https://github.com/zerocluster/ollama/compare/v4.2.39...v4.2.40)
+
 ### v4.2.39 (2026-05-29)
 
 **Code refactoring:**
