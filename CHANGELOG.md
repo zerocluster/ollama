@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.46 (2026-06-25)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [e2ec4c2](https://github.com/zerocluster/ollama/commit/e2ec4c2); 👬 zdm)
+
+Compare with the previous release: [v4.2.45...v4.2.46](https://github.com/zerocluster/ollama/compare/v4.2.45...v4.2.46)
+
 ### v4.2.45 (2026-06-25)
 
 **Other changes:**
