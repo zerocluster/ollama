@@ -422,7 +422,7 @@ Compare with the previous release: [v4.2.0](https://github.com/zerocluster/ollam
 
 **Bug fixes:**
 
-- \[PATCH] fix: remove NPM_TOKEN_GITHUB (● [90bcb08](https://github.com/zerocluster/ollama/commit/90bcb08); 👬 zdm)
+- \[PATCH] fix: remove NPM\_TOKEN\_GITHUB (● [90bcb08](https://github.com/zerocluster/ollama/commit/90bcb08); 👬 zdm)
 
 **Other changes:**
 

@@ -32,7 +32,7 @@ nvidia-smi -a
 A typical UUID looks like `GPU-45cbf7b3-f919-7228-7a26-b06628ebefa1`.
 Now, only take the first two dash-separated parts, e.g.: `GPU-45cbf7b3`.
 
-This "GPU_ID" can also be obtained using the following command
+This "GPU\_ID" can also be obtained using the following command
 
 ```sh
 GPU_ID=$(nvidia-smi -a | grep UUID | awk '{print substr($4,0,12)}')
