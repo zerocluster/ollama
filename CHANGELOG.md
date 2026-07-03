@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.2.47 (2026-07-03)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix md \_ escape (● [6e0798f](https://github.com/zerocluster/ollama/commit/6e0798f); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [9f205a5](https://github.com/zerocluster/ollama/commit/9f205a5), [a98373e](https://github.com/zerocluster/ollama/commit/a98373e), [7425f48](https://github.com/zerocluster/ollama/commit/7425f48), [23925ce](https://github.com/zerocluster/ollama/commit/23925ce), [1ca4b24](https://github.com/zerocluster/ollama/commit/1ca4b24), [171f6e1](https://github.com/zerocluster/ollama/commit/171f6e1), [b91c7ce](https://github.com/zerocluster/ollama/commit/b91c7ce), [97faf74](https://github.com/zerocluster/ollama/commit/97faf74), [61dcaea](https://github.com/zerocluster/ollama/commit/61dcaea), [efc11dd](https://github.com/zerocluster/ollama/commit/efc11dd), [92a56cb](https://github.com/zerocluster/ollama/commit/92a56cb); 👬 zdm)
+
+Compare with the previous release: [v4.2.46...v4.2.47](https://github.com/zerocluster/ollama/compare/v4.2.46...v4.2.47)
+
 ### v4.2.46 (2026-06-25)
 
 **Other changes:**
