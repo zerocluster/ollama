@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.2.52 (2026-07-06)
+
+**Other changes:**
+
+- build(deps): bunp @corejslib/core@^8.0.0 (● [da04c50](https://github.com/zerocluster/ollama/commit/da04c50); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [dfb1498](https://github.com/zerocluster/ollama/commit/dfb1498); 👬 zdm)
+
+Compare with the previous release: [v4.2.51...v4.2.52](https://github.com/zerocluster/ollama/compare/v4.2.51...v4.2.52)
+
 ### v4.2.51 (2026-07-05)
 
 **Other changes:**
