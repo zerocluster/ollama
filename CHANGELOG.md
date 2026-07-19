@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.56 (2026-07-19)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [a720ae1](https://github.com/zerocluster/ollama/commit/a720ae1); 👬 zdm)
+
+Compare with the previous release: [v4.2.55...v4.2.56](https://github.com/zerocluster/ollama/compare/v4.2.55...v4.2.56)
+
 ### v4.2.55 (2026-07-19)
 
 **Other changes:**
