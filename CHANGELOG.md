@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.2.67 (2026-08-02)
+
+**Other changes:**
+
+- chore: rename softvisio to corejslib (● [531b969](https://github.com/zerocluster/ollama/commit/531b969); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [4c49e43](https://github.com/zerocluster/ollama/commit/4c49e43); 👬 zdm)
+
+Compare with the previous release: [v4.2.66...v4.2.67](https://github.com/zerocluster/ollama/compare/v4.2.66...v4.2.67)
+
 ### v4.2.66 (2026-08-01)
 
 **Other changes:**
