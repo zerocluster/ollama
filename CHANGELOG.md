@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.2.71 (2026-08-04)
+
+**Other changes:**
+
+- chore: rename ccli to zcli (● [76086d9](https://github.com/zerocluster/ollama/commit/76086d9), [6928205](https://github.com/zerocluster/ollama/commit/6928205), [a9abae7](https://github.com/zerocluster/ollama/commit/a9abae7); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [8241e6f](https://github.com/zerocluster/ollama/commit/8241e6f); 👬 zdm)
+
+Compare with the previous release: [v4.2.70...v4.2.71](https://github.com/zerocluster/ollama/compare/v4.2.70...v4.2.71)
+
 ### v4.2.70 (2026-08-04)
 
 **Other changes:**
