@@ -13,6 +13,17 @@ docker run \
     ghcr.io/zerocluster/ollama
 ```
 
+### Copilot CLI integration
+
+```sh
+export COPILOT_PROVIDER_BASE_URL=http://devel:11434/v1
+export COPILOT_PROVIDER_API_KEY=1
+export COPILOT_PROVIDER_WIRE_API=responses
+export COPILOT_MODEL=qwen3:8b
+
+copilot
+```
+
 ## Run with `GPU` support
 
 ### Installing the NVidia Container Runtime
