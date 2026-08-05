@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.72 (2026-08-05)
+
+**Other changes:**
+
+- docs: update (● [e89b113](https://github.com/zerocluster/ollama/commit/e89b113), [319fcea](https://github.com/zerocluster/ollama/commit/319fcea); 👬 zdm)
+
+Compare with the previous release: [v4.2.71...v4.2.72](https://github.com/zerocluster/ollama/compare/v4.2.71...v4.2.72)
+
 ### v4.2.71 (2026-08-04)
 
 **Other changes:**
