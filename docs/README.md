@@ -19,7 +19,7 @@ docker run \
 export COPILOT_PROVIDER_BASE_URL=http://devel:11434/v1
 export COPILOT_PROVIDER_API_KEY=1
 export COPILOT_PROVIDER_WIRE_API=responses
-export COPILOT_MODEL=qwen3:8b
+export COPILOT_MODEL=qwen3-coder
 
 copilot
 ```
