@@ -94,8 +94,8 @@ docker run --rm -it \
 # api only
 docker run --rm -it \
     -p 80:8080 \
-    -e OPENAI_API_KEY=1
--e WEBUI_SECRET_KEY=1 \
+    -e OPENAI_API_KEY=1 \
+    -e WEBUI_SECRET_KEY=1 \
     -v /var/local/open-webui:/app/backend/data \
     ghcr.io/open-webui/open-webui:main
 
