@@ -18,7 +18,7 @@ docker run \
     ghcr.io/zerocluster/ollama
 ```
 
-### Copilot CLI integration
+## Copilot CLI integration
 
 ```sh
 export COPILOT_PROVIDER_BASE_URL=http://devel:11434/v1
