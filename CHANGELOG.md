@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.2.73 (2026-08-05)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix api (● [5876e14](https://github.com/zerocluster/ollama/commit/5876e14), [9220942](https://github.com/zerocluster/ollama/commit/9220942), [0335011](https://github.com/zerocluster/ollama/commit/0335011); 👬 zdm)
+
+**Other changes:**
+
+- docs: update (● [5ed48cc](https://github.com/zerocluster/ollama/commit/5ed48cc), [ff041dc](https://github.com/zerocluster/ollama/commit/ff041dc), [459d765](https://github.com/zerocluster/ollama/commit/459d765); 👬 zdm)
+
+Compare with the previous release: [v4.2.72...v4.2.73](https://github.com/zerocluster/ollama/compare/v4.2.72...v4.2.73)
+
 ### v4.2.72 (2026-08-05)
 
 **Other changes:**
