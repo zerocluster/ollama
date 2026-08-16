@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.2.74 (2026-08-16)
+
+**Other changes:**
+
+- chore: add comment to describe issue (● [8cc1055](https://github.com/zerocluster/ollama/commit/8cc1055); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [7155160](https://github.com/zerocluster/ollama/commit/7155160), [ef315f2](https://github.com/zerocluster/ollama/commit/ef315f2), [cb3e339](https://github.com/zerocluster/ollama/commit/cb3e339), [79b122f](https://github.com/zerocluster/ollama/commit/79b122f), [8a88db5](https://github.com/zerocluster/ollama/commit/8a88db5); 👬 zdm)
+
+Compare with the previous release: [v4.2.73...v4.2.74](https://github.com/zerocluster/ollama/compare/v4.2.73...v4.2.74)
+
 ### v4.2.73 (2026-08-05)
 
 **Bug fixes:**
