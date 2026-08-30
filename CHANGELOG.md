@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.2.82 (2026-08-30)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix shebang (● [9d1a822](https://github.com/zerocluster/ollama/commit/9d1a822); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [a722bc8](https://github.com/zerocluster/ollama/commit/a722bc8), [bac0b00](https://github.com/zerocluster/ollama/commit/bac0b00), [42ad651](https://github.com/zerocluster/ollama/commit/42ad651), [d300e96](https://github.com/zerocluster/ollama/commit/d300e96), [c9fd855](https://github.com/zerocluster/ollama/commit/c9fd855); 👬 zdm)
+
+Compare with the previous release: [v4.2.81...v4.2.82](https://github.com/zerocluster/ollama/compare/v4.2.81...v4.2.82)
+
 ### v4.2.81 (2026-08-27)
 
 **Other changes:**
