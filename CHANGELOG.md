@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.83 (2026-09-05)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [8b6b6d4](https://github.com/zerocluster/ollama/commit/8b6b6d4), [cb40643](https://github.com/zerocluster/ollama/commit/cb40643), [f640566](https://github.com/zerocluster/ollama/commit/f640566), [7cb206c](https://github.com/zerocluster/ollama/commit/7cb206c), [2c1db22](https://github.com/zerocluster/ollama/commit/2c1db22); 👬 zdm)
+
+Compare with the previous release: [v4.2.82...v4.2.83](https://github.com/zerocluster/ollama/compare/v4.2.82...v4.2.83)
+
 ### v4.2.82 (2026-08-30)
 
 **Bug fixes:**
