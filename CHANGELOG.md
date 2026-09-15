@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.2.90 (2026-09-15)
+
+**Other changes:**
+
+- chore: migrate to @corejslib/app (● [5b84809](https://github.com/zerocluster/ollama/commit/5b84809); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [6786af9](https://github.com/zerocluster/ollama/commit/6786af9); 👬 zdm)
+
+Compare with the previous release: [v4.2.89...v4.2.90](https://github.com/zerocluster/ollama/compare/v4.2.89...v4.2.90)
+
 ### v4.2.89 (2026-09-15)
 
 **Other changes:**
