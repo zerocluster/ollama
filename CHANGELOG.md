@@ -1,5 +1,15 @@
 # Changelog
 
+### v4.2.99 (2026-09-29)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [ead164e](https://github.com/zerocluster/ollama/commit/ead164e), [127099b](https://github.com/zerocluster/ollama/commit/127099b); 👬 zdm)
+
+- docs: update docs (● [e4d2cc6](https://github.com/zerocluster/ollama/commit/e4d2cc6); 👬 zdm)
+
+Compare with the previous release: [v4.2.98...v4.2.99](https://github.com/zerocluster/ollama/compare/v4.2.98...v4.2.99)
+
 ### v4.2.98 (2026-09-26)
 
 **Other changes:**
@@ -862,7 +872,7 @@ Compare with the previous release: [v4.2.0](https://github.com/zerocluster/ollam
 
 **Bug fixes:**
 
-- \[PATCH] fix: remove NPM\_TOKEN\_GITHUB (● [90bcb08](https://github.com/zerocluster/ollama/commit/90bcb08); 👬 zdm)
+- \[PATCH] fix: remove NPM_TOKEN_GITHUB (● [90bcb08](https://github.com/zerocluster/ollama/commit/90bcb08); 👬 zdm)
 
 **Other changes:**
 
