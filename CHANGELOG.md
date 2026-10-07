@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.102 (2026-10-07)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [6215c7e](https://github.com/zerocluster/ollama/commit/6215c7e), [7bcfbba](https://github.com/zerocluster/ollama/commit/7bcfbba), [4c6758d](https://github.com/zerocluster/ollama/commit/4c6758d); 👬 zdm)
+
+Compare with the previous release: [v4.2.101...v4.2.102](https://github.com/zerocluster/ollama/compare/v4.2.101...v4.2.102)
+
 ### v4.2.101 (2026-10-04)
 
 **Other changes:**
