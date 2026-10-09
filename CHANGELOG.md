@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.105 (2026-10-09)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [d2ff32d](https://github.com/zerocluster/ollama/commit/d2ff32d); 👬 zdm)
+
+Compare with the previous release: [v4.2.104...v4.2.105](https://github.com/zerocluster/ollama/compare/v4.2.104...v4.2.105)
+
 ### v4.2.104 (2026-10-09)
 
 **Other changes:**
