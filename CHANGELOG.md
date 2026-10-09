@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.104 (2026-10-09)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [171df1d](https://github.com/zerocluster/ollama/commit/171df1d); 👬 zdm)
+
+Compare with the previous release: [v4.2.103...v4.2.104](https://github.com/zerocluster/ollama/compare/v4.2.103...v4.2.104)
+
 ### v4.2.103 (2026-10-07)
 
 **Other changes:**
