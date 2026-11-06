@@ -4,7 +4,6 @@
 services:
   ollama:
     image: ghcr.io/zerocluster/ollama
-    depends_on: []
     init: true
     stop_grace_period: 5m
 
