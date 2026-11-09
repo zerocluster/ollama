@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.2.130 (2026-11-09)
+
+**Bug fixes:**
+
+- \[PATCH] fix: remove depends_on from compose file (● [0b9f80d](https://github.com/zerocluster/ollama/commit/0b9f80d); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [5e2c542](https://github.com/zerocluster/ollama/commit/5e2c542), [2f30a8d](https://github.com/zerocluster/ollama/commit/2f30a8d); 👬 zdm)
+
+Compare with the previous release: [v4.2.129...v4.2.130](https://github.com/zerocluster/ollama/compare/v4.2.129...v4.2.130)
+
 ### v4.2.129 (2026-11-06)
 
 **Other changes:**
