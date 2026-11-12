@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.131 (2026-11-12)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [9128211](https://github.com/zerocluster/ollama/commit/9128211), [a023d73](https://github.com/zerocluster/ollama/commit/a023d73), [adb27bc](https://github.com/zerocluster/ollama/commit/adb27bc); 👬 zdm)
+
+Compare with the previous release: [v4.2.130...v4.2.131](https://github.com/zerocluster/ollama/compare/v4.2.130...v4.2.131)
+
 ### v4.2.130 (2026-11-09)
 
 **Bug fixes:**
