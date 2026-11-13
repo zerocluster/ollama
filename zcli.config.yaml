@@ -17,4 +17,4 @@ docs:
 
   app:
     rpc:
-      url: ws://ollama:81/api
+      url: ws://ollama:81/
