@@ -1,5 +1,13 @@
 # Changelog
 
+### v4.2.134 (2026-11-13)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [ec3d382](https://github.com/zerocluster/ollama/commit/ec3d382); 👬 zdm)
+
+Compare with the previous release: [v4.2.133...v4.2.134](https://github.com/zerocluster/ollama/compare/v4.2.133...v4.2.134)
+
 ### v4.2.133 (2026-11-13)
 
 **Bug fixes:**
