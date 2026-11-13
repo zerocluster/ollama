@@ -1,5 +1,19 @@
 # Changelog
 
+### v4.2.133 (2026-11-13)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct app RPC websocket endpoint (● [059a17e](https://github.com/zerocluster/ollama/commit/059a17e); 👬 zdm)
+
+**Other changes:**
+
+- chore(deps): update locked dependencies (● [a81472b](https://github.com/zerocluster/ollama/commit/a81472b), [d73dde5](https://github.com/zerocluster/ollama/commit/d73dde5); 👬 zdm)
+
+- docs: update docs (● [118cfc3](https://github.com/zerocluster/ollama/commit/118cfc3); 👬 zdm)
+
+Compare with the previous release: [v4.2.132...v4.2.133](https://github.com/zerocluster/ollama/compare/v4.2.132...v4.2.133)
+
 ### v4.2.132 (2026-11-12)
 
 **Other changes:**
