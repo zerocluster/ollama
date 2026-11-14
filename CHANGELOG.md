@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.2.137 (2026-11-14)
+
+**Other changes:**
+
+- chore: remove app rpc endpoint setting (● [57a95b4](https://github.com/zerocluster/ollama/commit/57a95b4); 👬 zdm)
+
+- chore(deps): update locked dependencies (● [ae90571](https://github.com/zerocluster/ollama/commit/ae90571); 👬 zdm)
+
+- docs: update (● [c28ebc9](https://github.com/zerocluster/ollama/commit/c28ebc9); 👬 zdm)
+
+Compare with the previous release: [v4.2.136...v4.2.137](https://github.com/zerocluster/ollama/compare/v4.2.136...v4.2.137)
+
 ### v4.2.136 (2026-11-13)
 
 **Other changes:**
