@@ -1,6 +1,6 @@
 {
     "name": "@zerocluster/ollama",
-    "version": "4.2.145",
+    "version": "4.2.146",
     "private": true,
     "description": "Ollama",
     "keywords": [
