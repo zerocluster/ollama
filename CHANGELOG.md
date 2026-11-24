@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.2.148 (2026-11-24)
+
+**Bug fixes**:
+
+- \[PATCH] fix: rename app run command to start (● [d20dcf5](https://github.com/zerocluster/ollama/commit/d20dcf5); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [b2c8289](https://github.com/zerocluster/ollama/commit/b2c8289), [faa4bf0](https://github.com/zerocluster/ollama/commit/faa4bf0); 👬 zdm)
+
+Compare with the previous release: [v4.2.147...v4.2.148](https://github.com/zerocluster/ollama/compare/v4.2.147...v4.2.148)
+
 ### v4.2.147 (2026-11-22)
 
 **Other changes**:
