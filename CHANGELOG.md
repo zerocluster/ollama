@@ -1,5 +1,17 @@
 # Changelog
 
+### v4.2.149 (2026-11-25)
+
+**Bug fixes**:
+
+- \[PATCH] fix: use start command in development script (● [f5f3773](https://github.com/zerocluster/ollama/commit/f5f3773); 👬 zdm)
+
+**Other changes**:
+
+- chore(deps): update locked dependencies (● [3ab0929](https://github.com/zerocluster/ollama/commit/3ab0929); 👬 zdm)
+
+Compare with the previous release: [v4.2.148...v4.2.149](https://github.com/zerocluster/ollama/compare/v4.2.148...v4.2.149)
+
 ### v4.2.148 (2026-11-24)
 
 **Bug fixes**:
